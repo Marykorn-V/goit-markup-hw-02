@@ -9,6 +9,7 @@
   --primary-text-color: #757575;
   --primary-wight-color: #ffffff;
   --second-bgc-color: #2f303a;
+  --third-bgc-color: #f5f4fa;
 }
 body {
   color: var(--primary-text-color);
@@ -26,11 +27,14 @@ ul {
 .link-logo {
   color: #000000;
 }
-.site-nav a {
+.site-nav {
   color: var(--title-text-color);
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-text-color);
+}
+.site-nav.current {
   color: var(--accent-text-color);
 }
 /* Contacts */
@@ -54,11 +58,35 @@ ul {
 .title {
   color: var(--title-text-color);
 }
-
+.section {
+  background-color: var(--third-bgc-color);
+}
 footer {
   background-color: var(--second-bgc-color);
   color: var(--primary-wight-color);
 }
 footer .link-logo {
   color: var(--primary-wight-color);
+}
+.address {
+  color: var(--primary-wight-color);
+}
+/* Portfolio */
+.title-main {
+  display: none;
+}
+.filter {
+  background-color: var(--third-bgc-color);
+  color: var(--title-text-color);
+}
+.filter:hover {
+  background-color: var(--accent-text-color);
+  color: var(--primary-wight-color);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+a p {
+  color: var(--primary-text-color);
 }
