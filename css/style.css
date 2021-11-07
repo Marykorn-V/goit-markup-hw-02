@@ -1,0 +1,64 @@
+/* Цвет акцента #2196F3
+Цвет заголовка #212121 
+Цвет основного текста #757575
+Белый цвет #FFFFFF
+*/
+:root {
+  --accent-text-color: #2196f3;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --primary-wight-color: #ffffff;
+  --second-bgc-color: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-wight-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.logo {
+  color: var(--accent-text-color);
+}
+.link-logo {
+  color: #000000;
+}
+.site-nav a {
+  color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-text-color);
+}
+/* Contacts */
+.contact {
+  color: var(--primary-text-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-text-color);
+}
+/* Шапка */
+.hero {
+  background-color: var(--second-bgc-color);
+  color: var(--primary-wight-color);
+}
+.button {
+  background-color: var(--accent-text-color);
+  color: var(--primary-wight-color);
+}
+/* Main */
+.title {
+  color: var(--title-text-color);
+}
+
+footer {
+  background-color: var(--second-bgc-color);
+  color: var(--primary-wight-color);
+}
+footer .link-logo {
+  color: var(--primary-wight-color);
+}
