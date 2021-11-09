@@ -140,8 +140,7 @@ footer .link-logo {
 .contact-footer:hover,
 .contact-footer:focus {
   color: var(--accent-text-color);
-
-
+}
 /* Portfolio */
 .title-main {
   display: none;
@@ -166,6 +165,7 @@ footer .link-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  text-transform: none;
 }
 .text-category {
   font-size: 16px;
